@@ -7,6 +7,7 @@
 * Add ability to configure a custom theme
 * Add compatibility with the FreeScout Dark Mode Module
 * Not all UI elements have been included yet
+* Create icon for the module
 
 ## Install
 1. Navigate to your Modules folder e.g. `cd /var/www/html/Modules`
