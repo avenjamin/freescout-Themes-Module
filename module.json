@@ -1,0 +1,23 @@
+{
+    "name": "Themes",
+    "alias": "themes",
+    "description": "Freescout Module that adds some custom colour themes",
+    "version": "1.0.0",
+    "detailsUrl": "https://github.com/avenjamin/freescout-Themes-Module",
+    "author": "Ben Perry",
+    "authorUrl": "https://github.com/avenjamin",
+    "requiredAppVersion": "1.8.57",
+    "license": "AGPL-3.0",
+    "keywords": [],
+    "img": "",
+    "active": 0,
+    "order": 0,
+    "providers": [
+        "Modules\\Themes\\Providers\\ThemesServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

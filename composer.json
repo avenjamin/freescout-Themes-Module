@@ -1,0 +1,24 @@
+{
+    "name": "freescout/themes",
+    "description": "",
+    "authors": [
+        {
+            "name": "Ben Perry",
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Themes\\Providers\\ThemesServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Themes\\": ""
+        }
+    }
+}
