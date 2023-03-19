@@ -86,7 +86,7 @@ class ThemesServiceProvider extends ServiceProvider
 
         // Set theme colour.
         \Eventy::addFilter('layout.theme_color', function($color) {
-            $color = $this::themes[\Option::get('themes.theme', \Config::get('themes.theme'))]['primary'];
+            $color = self::$themes[\Option::get('themes.theme', \Config::get('themes.theme'))]['primary'];
             return $color;
         });
 
@@ -98,7 +98,7 @@ class ThemesServiceProvider extends ServiceProvider
 
             # Get new settings
             $vars = $request->settings;
-            $vars['theme'] = $this::themes[$request->settings['themes.theme']];
+            $vars['theme'] = self::$themes[$request->settings['themes.theme']];
 
             # Build CSS from template
             ob_start();
