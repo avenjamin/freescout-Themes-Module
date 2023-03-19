@@ -1,13 +1,17 @@
 # FreeScout Themes Module
- Change the colour scheme of [FreeScout](https://github.com/freescout-helpdesk/freescout "FreeScout")
- 
- ![FreeScout Themes Settings](Public/img/FreeScout-Themes-Settings.png)
+Change the colour scheme of [FreeScout](https://github.com/freescout-helpdesk/freescout "FreeScout")
+
+<img src="Public/img/freescout-themes-module-256x256.png" width="192" height="192" style="border-radius: 1em;" />
+
+## Screenshot
+
+![FreeScout Themes Settings](Public/img/FreeScout-Themes-Settings.png)
  
 ## To Do
 * Add ability to configure a custom theme
 * Add compatibility with the FreeScout Dark Mode Module
 * Not all UI elements have been included yet
-* Create icon for the module
+* ~~Create icon for the module~~
 
 ## Install
 1. Navigate to your Modules folder e.g. `cd /var/www/html/Modules`

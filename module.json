@@ -9,7 +9,7 @@
     "requiredAppVersion": "1.8.57",
     "license": "AGPL-3.0",
     "keywords": [],
-    "img": "",
+    "img": "/modules/themes/img/freescout-themes-module-256x256.png",
     "active": 0,
     "order": 0,
     "providers": [
