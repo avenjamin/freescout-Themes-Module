@@ -21,13 +21,13 @@ class ThemesServiceProvider extends ServiceProvider
      * @var array
      */
     public static $themes = [
-        'grey' => ['primary' => '#97A4B0', 'secondary' => '#', 'hover' => '#8897A6'],
-        'green' => ['primary' => '#52AD67', 'secondary' => '#', 'hover' => '#24963F'],
-        'blue' => ['primary' => '#349DE9', 'secondary' => '#', 'hover' => '#0C5DD2'],
-        'orange' => ['primary' => '#F68F33', 'secondary' => '#', 'hover' => '#E38330'],
+        'grey' => ['primary' => '#97A4B0', 'secondary' => '#EEEEEE', 'hover' => '#8897A6'],
+        'green' => ['primary' => '#52AD67', 'secondary' => '#EEFFEE', 'hover' => '#24963F'],
+        'blue' => ['primary' => '#349DE9', 'secondary' => '#DFF2FF', 'hover' => '#0C5DD2'],
+        'orange' => ['primary' => '#F68F33', 'secondary' => '#FFF1E4', 'hover' => '#E38330'],
         'purple' => ['primary' => '#864493', 'secondary' => '#F0E7F3', 'hover' => '#6E067A'],
-        'red' => ['primary' => '#F0554F', 'secondary' => '#', 'hover' => '#E52F28'],
-        'brown' => ['primary' => '#9E6937', 'secondary' => '#', 'hover' => '#844204']
+        'red' => ['primary' => '#F0554F', 'secondary' => '#FFEEEE', 'hover' => '#E52F28'],
+        'brown' => ['primary' => '#9E6937', 'secondary' => '#ECE2D8', 'hover' => '#844204']
     ];
 
     /**
