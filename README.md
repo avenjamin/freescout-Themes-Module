@@ -8,9 +8,9 @@ Change the colour scheme of [FreeScout](https://github.com/freescout-helpdesk/fr
 ![FreeScout Themes Settings](Public/img/FreeScout-Themes-Settings.png)
  
 ## To Do
-* Add ability to configure a custom theme
-* Add compatibility with the FreeScout Dark Mode Module
-* Not all UI elements have been included yet
+* [Add ability to configure a custom theme](https://github.com/avenjamin/freescout-Themes-Module/issues/3)
+* [Add compatibility with the FreeScout Dark Mode Module](https://github.com/avenjamin/freescout-Themes-Module/issues/4)
+* [Not all UI elements have been included yet](https://github.com/avenjamin/freescout-Themes-Module/issues/5)
 * ~~Create icon for the module~~
 
 ## Install
@@ -26,6 +26,6 @@ Change the colour scheme of [FreeScout](https://github.com/freescout-helpdesk/fr
 4. Enjoy the update!
 
 ## Known Issues
-* Active theme colour button in Settings doesn't show the colour.
+* [Active theme colour button in Settings doesn't show the colour](https://github.com/avenjamin/freescout-Themes-Module/issues/6)
 
 <a href="https://www.buymeacoffee.com/benperry" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
