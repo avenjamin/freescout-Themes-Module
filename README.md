@@ -22,7 +22,7 @@ Change the colour scheme of [FreeScout](https://github.com/freescout-helpdesk/fr
 ## Update
 1. Navigate to the Unassigned Count Module folder e.g. `cd /var/www/html/Modules/Themes`
 2. Run `git pull`
-3. Run `chown -R www-data:www-data Themes` (or whichever user:group your webserver uses)
+3. Run `chown -R www-data:www-data .` (or whichever user:group your webserver uses)
 4. Enjoy the update!
 
 ## Known Issues
