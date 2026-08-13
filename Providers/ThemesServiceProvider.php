@@ -86,7 +86,10 @@ class ThemesServiceProvider extends ServiceProvider
 
         // Set theme colour.
         \Eventy::addFilter('layout.theme_color', function($color) {
-            $color = self::$themes[\Option::get('themes.theme', \Config::get('themes.theme'))]['primary'];
+            $theme = auth()->check() && !empty(auth()->user()->settings['themes.theme'])
+                ? auth()->user()->settings['themes.theme']
+                : \Option::get('themes.theme', \Config::get('themes.theme'));
+            $color = self::$themes[$theme]['primary'];
             return $color;
         });
 
